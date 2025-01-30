@@ -8,8 +8,13 @@
     <!-- Title of the webpage -->
     <title>My Portfolio</title>
     
-    <!-- Link to external CSS file -->
-    <link rel="stylesheet" href="styles.css">
+     <!-- Link to each CSS file -->
+     <link rel="stylesheet" href="css/variables.css">
+     <link rel="stylesheet" href="css/fonts-and-body.css">
+     <link rel="stylesheet" href="css/header.css">
+     <link rel="stylesheet" href="css/layout.css">
+     <link rel="stylesheet" href="css/skills-and-contact.css">
+     <link rel="stylesheet" href="css/footer-and-responsive.css">
     
     <!-- Preconnect to Google Fonts for faster loading -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,9 +34,6 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
 
-    
-    <!-- Re-linking the local styles.css (optional but good practice) -->
-    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <!-- Header Section with navigation links and social media icons -->
@@ -58,66 +60,70 @@
     </nav>
 </header>
 
+<main>
+    <!-- About Section -->
+    <section id="about">
+        <!-- Profile picture -->
+        <div class="image">
+            <img src="IMG_1875.PNG" alt="Edy Cristian Nieto" class="profile-pic">
+        </div>
 
-    <main>
-        <!-- About Section -->
-        <section id="about">
-            
-            <!-- Profile picture -->
-            <div class="image">
-                <img src="IMG_1875.PNG" alt="Edy Cristian Nieto" class="profile-pic">
+        <!-- Main introduction text -->
+        <h1>Hello, I'm Edy Cristian Nieto</h1>
+        <p>Welcome to my portfolio! I'm a Computer Science Major at Texas Tech. I am passionate about software development and furthing my developing skills!</p>
+        <br>
+        <p>Outside of academics, I enjoy building PC's for others, lifting weights, and being with my family. </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="container">
+            <div class="square">
+                <h3>Exam Reminder</h3>
+                <p>An exam reminder website that helps users track upcoming exams. (in progress.)</p>
+                <a href="https://github.com/CristianNieto3/Exam-Reminder" target="_blank">View Project</a>
             </div>
-
-            <!-- Main introduction text -->
-            <h1>Hello, I'm Edy Cristian Nieto</h1>
-            <p>Welcome to my portfolio! I'm a Computer Science Major at Texas Tech. I am passionate about software development and furthing my developing skills!</p>
-            <br>
-            <p>Outside of academics, I enjoy building PC's for others, lifting weights, and being with my family. </p>
-        </section>
-
-        <!-- Projects Section -->
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="container">
-                <div class="square">
-                    <h3>Exam Reminder</h3>
-                    <p>An exam reminder website that helps users track upcoming exams.</p>
-                    <a href="https://github.com/CristianNieto3/Exam-Reminder" target="_blank">View Project</a>
-                </div>
-            </div> 
-        </section>
-
-        <!-- Skills Section -->
-        <section id="skills">
-            <h2>Skills</h2>
-            <div class="skills-container">
-                <i class="fa-brands fa-python"></i>
-                <i class="fa-brands fa-java"></i>
-                <i class="devicon-c-plain-wordmark"></i>
-                <i class="devicon-javascript-plain"></i>
-                <i class="devicon-html5-plain"></i>
-                <i class="devicon-css3-plain"></i>
-                <i class="devicon-postgresql-plain"></i>
-                <i class="fa-brands fa-git-alt"></i>
-                <i class="fa-brands fa-github-alt"></i>
+            <div class="square">
+                <h3>Housing Price Prediction</h3>
+                <p>I created a linear regression model to predict housing prices based on factors such as location, square footage, and number of bedrooms, using a least squares approach to minimize errors and assess the model's accuracy.</p>
+                <a href="https://github.com/CristianNieto3/housingprediction" target="_blank">View Project</a>
             </div>
-        </section>
+        </div> 
+    </section>
 
-        <!-- Contact Section -->
-        <section id="contact">
-            <h2>Contact</h2>
-            <!-- Contact Information -->
-            <p>Email: <a href="mailto:your.email@example.com">cristian.nieto20@icloud.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/edy-nieto-4423b3345/" target="_blank">Click Here!</a></p>
-        </section>
-    </main>
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <i class="fa-brands fa-python"></i>
+            <i class="fa-brands fa-java"></i>
+            <i class="devicon-c-plain-wordmark"></i>
+            <i class="devicon-javascript-plain"></i>
+            <i class="devicon-html5-plain"></i>
+            <i class="devicon-css3-plain"></i>
+            <i class="devicon-postgresql-plain"></i>
+            <i class="fa-brands fa-git-alt"></i>
+            <i class="fa-brands fa-github-alt"></i>
+        </div>
+    </section>
 
-    <!-- Footer Section -->
-    <footer>
-        <!-- Footer text -->
-        <p>© 2024 Edy Cristian Nieto. All Rights Reserved.</p>
-    </footer>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <!-- Contact Information -->
+        <p>Email: <a href="mailto:your.email@example.com">cristian.nieto20@icloud.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/edy-nieto-4423b3345/" target="_blank">Click Here!</a></p>
+    </section>
+</main>
+
+<!-- Footer Section -->
+<footer>
+    <!-- Footer text -->
+    <p>© 2024 Edy Cristian Nieto. All Rights Reserved.</p>
+</footer>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
