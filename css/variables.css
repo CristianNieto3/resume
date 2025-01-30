@@ -1,0 +1,9 @@
+/* Root variables for theme colors */
+:root {
+    --text-color: #1a1c20; /* Text color */
+    --link-color: #ffffff; /* Link color */
+    --background-color: #eeeff1; /* Background color */
+    --primary-color: #6fb2ff; /* Primary accent color */
+    --hover-color: #5e9be0; /* Hover color */
+    --font-size-base: 20px; /* Base font size */
+}

@@ -1,0 +1,26 @@
+/* Footer section styling */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: var(--primary-color); /* Footer background color */
+    color: var(--link-color); /* White text color */
+    margin-top: 2rem; /* Adds space above the footer */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .square {
+        width: 100%;
+        height: auto;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

@@ -1,0 +1,31 @@
+/* @font-face to load the custom font 'Shadows Into Light' */
+@font-face {
+    font-family: 'Shadows Into Light'; /* Define the font family name */
+    src: url('fonts/ShadowsIntoLight.ttf') format('truetype'); /* Path to the font file */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Apply the 'Shadows Into Light' font globally */
+body {
+    font-family: 'Shadows Into Light', Arial, sans-serif; /* Font for the body */
+    font-size: var(--font-size-base);
+    color: var(--text-color);
+    background-color: var(--background-color);
+    line-height: 1.6; /* Line height for readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Smooth scrolling behavior */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem; /* Adds space at the top when navigating to sections */
+}
+
+/* Reset default margin and padding for common elements */
+body, h1, h2, h3, h4, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none; /* Remove list bullets from <ul> */
+}

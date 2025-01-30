@@ -1,0 +1,35 @@
+/* Skills section styling */
+section#skills ul {
+    display: inline-block;
+    text-align: left;
+    margin-top: 1rem; /* Adds margin on top */
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center; /* Ensures logos are centered */
+    gap: 20px; /* Adjusts space between logos */
+    flex-wrap: wrap; /* Ensures logos wrap to the next line if needed */
+}
+
+.skills-container i {
+    font-size: 50px;
+    margin: 20px;
+    color: rgb(59, 59, 59);
+    transition: transform 0.3s, color 0.3s;
+}
+
+.skills-container i:hover {
+    transform: scale(1.1); /* Makes icons grow when hovered */
+    color: var(--primary-color);
+}
+
+/* Contact section link styling */
+section#contact a {
+    color: var(--text-color); /* Text color for links */
+    text-decoration: none; /* Removes underline */
+}
+
+section#contact a:hover {
+    text-decoration: underline; /* Underline on hover */
+}

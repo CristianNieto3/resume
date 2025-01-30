@@ -1,0 +1,55 @@
+/* Header section styling */
+header {
+    background: var(--primary-color); /* Header background color */
+    color: var(--link-color); /* White text color */
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav ul {
+    display: flex; /* Flexbox for navigation items */
+    justify-content: flex-end; /* Aligns the navigation items to the right */
+    gap: 1rem; /* Adds spacing between items */
+    list-style: none;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: var(--link-color); /* White color for links */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+    font-size: 1rem; /* Font size for links */
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: var(--hover-color); /* Hover effect on links */
+}
+
+/* Resume Button Styling */
+.resume-download-btn {
+    color: var(--link-color); /* Initial text color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+    font-size: 1rem; /* Font size for consistency */
+    transition: color 0.3s; /* Smooth color change */
+    padding: 0; /* Remove padding to ensure no box effect */
+    background: none; /* Ensure no background color */
+    border: none; /* Remove any borders */
+}
+
+.resume-download-btn:hover {
+    color: var(--hover-color); /* Darken the text on hover */
+    background-color: var(--primary-color);
+    color: var(--link-color);
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.resume-download-btn:hover {
+    background-color: var(--hover-color);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
